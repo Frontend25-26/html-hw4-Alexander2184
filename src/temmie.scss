@@ -1,0 +1,61 @@
+$primary-color: #05392d;
+$secondary-color: #68630e;
+$marg: 20px;
+
+@mixin btn($width, $color) {
+  width: $width;
+  border: 1px solid $color;
+  border-radius: 3px;
+  font-size: 16px;
+  color: $color;
+  margin: 10px;
+  text-indent: 5px;
+
+  &:hover {
+    background: $color;
+    color: white;
+  }
+}
+
+#temmie-card {
+  height: 600px;
+  width: 320px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: $marg;
+
+  .cat-line {
+    color: #222222;
+  }
+
+  .cat-card-header {
+    color: $primary-color;
+    font-size: 24px;
+    font-weight: bold;
+    margin: $marg;
+  }
+
+  .cat-age {
+    .age {
+      font-weight: bold;
+    }
+    color: $secondary-color;
+    margin: $marg;
+  }
+
+  .cat-info {
+    color: $secondary-color;
+    margin: $marg;
+    font-size: 12px;
+  }
+
+  .cat-like {
+    @include btn(70px, red);
+    float: left;
+  }
+
+  .cat-pet {
+    @include btn(140px, blue);
+    float: right;
+  }
+}
