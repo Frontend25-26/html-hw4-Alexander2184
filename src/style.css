@@ -1,0 +1,186 @@
+
+body {
+    display: flex;
+}
+
+#bast-card {
+    width: 320px;
+    height: 600px;
+    border: 1px solid #060c53;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#bast-card .cat-card-header {
+    color: #3642ba;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#bast-card .img-wrapper {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+#bast-card .cat-line {
+    color: #060c53;
+}
+
+#bast-card .cat-age {
+    color: #985e12;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#bast-card .cat-info {
+    margin: 10px;
+    font-size: 12px;
+}
+
+#bast-card .cat-like {
+    --like-color: #ec0606;
+
+    margin: 10px;
+    color: var(--like-color);
+    border: 1px solid var(--like-color);
+    border-radius: 3px;
+    width: calc(20% + 20px);
+    text-indent: 5px;
+    float: left;
+
+    &:hover {
+        background-color: var(--like-color);
+        color: white;
+    }
+
+}
+
+#bast-card .cat-pet {
+    --pet-color: #064fec;
+
+    margin: 10px;
+    color: var(--pet-color);
+    border: 1px solid var(--pet-color);
+    border-radius: 3px;
+    width: calc(30% + 40px);
+    text-indent: 5px;
+    float: right;
+
+    &:hover {
+        background-color: var(--pet-color);
+        color: white;
+    }
+
+}
+
+
+#godcat-card {
+    width: 320px;
+    height: 600px;
+    border: 1px solid #060c53;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.god {
+    font-style: normal;
+    color: #5d94dc;
+}
+
+.cat {
+    font-style: normal;
+    color: #9c0808;
+}
+
+.age {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.godcat-age {
+    font-size: 14px;
+    color: #060c53;
+}
+
+.godcat-text {
+    font-size: 14px;
+}
+
+#godcat-card .button-left {
+     font-size: 14px;
+     float: left;
+ }
+
+#godcat-card .button-right {
+    font-size: 14px;
+    float: right;
+}
+
+#temmie-card {
+    height: 600px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#temmie-card .cat-line {
+    color: #222222;
+}
+
+#temmie-card .cat-card-header {
+    color: #05392d;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#temmie-card .cat-age {
+    color: #68630e;
+    margin: 20px;
+}
+
+#temmie-card .cat-age .age {
+    font-weight: bold;
+}
+
+#temmie-card .cat-info {
+    color: #68630e;
+    margin: 20px;
+    font-size: 12px;
+}
+
+#temmie-card .cat-like {
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 16px;
+    color: red;
+    margin: 10px;
+    text-indent: 5px;
+    float: left;
+}
+
+#temmie-card .cat-like:hover {
+    background: red;
+    color: white;
+}
+
+#temmie-card .cat-pet {
+    width: 140px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    font-size: 16px;
+    color: blue;
+    margin: 10px;
+    text-indent: 5px;
+    float: right;
+}
+
+#temmie-card .cat-pet:hover {
+    background: blue;
+    color: white;
+}
